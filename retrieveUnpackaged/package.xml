@@ -11,5 +11,9 @@
         <members>CurrencyStatus</members>
         <name>AuraDefinitionBundle</name>
     </types>
+    <types>
+        <members>CURRENCY</members>
+        <name>RemoteSiteSetting</name>
+    </types>
     <version>37.0</version>
 </Package>
