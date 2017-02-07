@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>CurrencyStatus</members>
+        <members>CurrencyTest</members>
+        <members>CurrencyWrapper</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>CurrencyApp</members>
+        <members>CurrencyStatus</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <version>37.0</version>
+</Package>
