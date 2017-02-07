@@ -1,0 +1,9 @@
+<aura:component controller="CurrencyStatus" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes" access="global" >
+    <br/>   <b>Currency Value:</b><br/>
+     <aura:attribute name="inrStatus" type="string" />
+     <aura:attribute name="strBaseCurr" type="string" default="USD" /><br/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <ui:inputText placeholder="Base Currency" value="{!v.strBaseCurr}"/><br/><br/>
+    <b>INR: </b> {!v.inrStatus}<br/><br/>
+    <ui:button press="c.pressme">Get Data</ui:button><br/><br/>
+</aura:component>
