@@ -1,4 +1,4 @@
-<project name="Sample usage of Salesforce Ant tasks" default="retrieveUnpackaged" basedir="." xmlns:sf="antlib:com.salesforce">
+<project name="Travis CI Demo" default="retrieveUnpackaged" basedir="." xmlns:sf="antlib:com.salesforce">
 
     <property file="build.properties"/>
     <property environment="env"/>
@@ -13,7 +13,7 @@
 
     <taskdef resource="com/salesforce/antlib.xml" uri="antlib:com.salesforce">
         <classpath>
-            <pathelement location="../ant-salesforce.jar" />        	
+            <pathelement location="build/ant/ant-salesforce.jar" />        	
         </classpath>
     </taskdef>
 	
