@@ -1,2 +1,2 @@
 language: Apex
-script: ant
+script: ant deployUnpackaged
