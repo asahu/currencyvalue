@@ -1,2 +1,2 @@
 language: Apex
-install: ant deps
+install: ant
