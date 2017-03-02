@@ -7,6 +7,8 @@ Example:
   If you type base Currency as USD, it will give you the value of your currency with respect to USD $1.
 
 This is a Lightning Component and can be added to the Lightning UI.  
+
+March 2017
   
  Contributions to improve this is always welcome :)
  
