@@ -1,4 +1,4 @@
-<project name="Travis with Salesforce" default="retrieveUnpackaged" basedir="." xmlns:sf="antlib:com.salesforce">
+<project name="Travis CI Demo" default="retrieveUnpackaged" basedir="." xmlns:sf="antlib:com.salesforce">
 
     <property file="build.properties"/>
     <property environment="env"/>
